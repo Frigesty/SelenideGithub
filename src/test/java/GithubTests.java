@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class GithubTests {
     @Test
-    void searchCodeJUnit5() {
+    void searchCodeJUnit5test() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
         $("input#wiki-pages-filter").setValue("SoftAssertions");
